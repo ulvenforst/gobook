@@ -1,0 +1,6 @@
+Hola mundo desde un txt
+
+This is another line 
+Hola gopher
+Este quizá sea
+Este lo escribimos desde readingFiles.go
