@@ -13,10 +13,10 @@ import (
 // The JSON-based web service of the Open Movie Database lets you search
 // https://omdbapi.com/ for a movie by name and download its poster image.
 // Write a tool poster that downloads the poster image for the movie named on the command line.
-var posterURL struct{ Poster string }
 
 // Poster fetches an image of a movie and downloads it into the root directory
 func Poster(posterName string) error {
+	var posterURL struct{ Poster string }
 
 	// Constructs a valid url for our movie image
 	fullURL, err := constructOMDbURL(posterName)
